@@ -1,5 +1,8 @@
 package main.java;
 
+import static org.testng.Assert.assertEquals;
+
+import org.testng.Assert;
 import org.testng.annotations.*;
 public class TestCases {
 	
@@ -15,5 +18,11 @@ public void test2()
 	System.out.println("Test 2 is passed ");
 }
 
-	
+@Test
+public void test3()
+
+{
+	System.out.println("Test 3 initiated");
+Assert.assertEquals(0, 1);
+}
 }
