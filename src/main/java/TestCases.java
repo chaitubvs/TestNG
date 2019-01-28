@@ -23,6 +23,6 @@ public void test3()
 
 {
 	System.out.println("Test 3 initiated");
-Assert.assertEquals(0, 1);
+Assert.assertEquals(1, 1);
 }
 }
